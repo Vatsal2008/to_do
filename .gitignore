@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+
+# Replit hidden files
+.replit
+replit.nix
+
+# VSCode / IDE configs (optional)
+.vscode/
