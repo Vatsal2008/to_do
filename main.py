@@ -60,4 +60,4 @@ def reset_ids():
     return jsonify({"message": "Auto increment reset"}), 200
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
