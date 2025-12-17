@@ -3,7 +3,7 @@ from flask_cors import CORS
 import crud as cd
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for frontend communication
+CORS(app, resources={r"/*": {"origins": "*", "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"]}})
 
 @app.route('/')
 def index():
